@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <nav className="w-full position-fixed sticky top-0 z-50 flex justify-between rounded-3xl items-center py-6 px-12 bg-white/30 backdrop-blur-xl">
+    <nav className="w-full position-fixed sticky top-0 z-50 flex justify-between rounded-3xl items-center py-4 md:py-6 px-4 md:px-12 bg-white/30 backdrop-blur-xl">
       {/* Logo */}
       <h1 className="text-2xl font-bold tracking-tight text-slate-800">
         Horizon Courts

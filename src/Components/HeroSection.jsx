@@ -22,21 +22,21 @@ const HeroSection = () => {
                 />
             </div>
 
-            <div className="relative z-20 max-w-7xl mx-auto flex flex-col items-center mt-[-50px]">
+            <div className="relative z-20 max-w-7xl mx-auto flex flex-col items-center mt-[-50px] px-4">
                 {/* Headline */}
-                <h1 className="text-5xl md:text-6xl text-white  mb-6 leading-tight tracking-tight drop-shadow-lg">
+                <h1 className="text-3xl sm:text-4xl md:text-6xl text-white mb-4 md:mb-6 leading-tight tracking-tight drop-shadow-lg max-w-full">
                     Unleash Your Inner Champion Today.
-                    <span className="block mt-4 opacity-90">All In One Place.</span>
+                    <span className="block mt-2 md:mt-4 opacity-90">All In One Place.</span>
                 </h1>
 
                 {/* Subhead */}
-                <p className="text-lg md:text-xl text-white/90 mb-10 max-w-2xl font-light leading-relaxed drop-shadow-md">
+                <p className="text-base sm:text-lg md:text-xl text-white/90 mb-8 md:mb-10 max-w-xl mx-auto font-light leading-relaxed drop-shadow-md">
                     Join the ultimate tennis experience — where passion meets performance,
                     and every swing brings you closer to victory.
                 </p>
 
                 {/* CTA */}
-                <button className="bg-[#1e293b] text-white text-base md:text-lg font-medium px-8 py-4 rounded-full hover:bg-black transition-all transform hover:scale-105 shadow-xl flex items-center gap-2 cursor-pointer">
+                <button className="bg-[#1e293b] text-white text-sm md:text-lg font-medium px-6 py-3 md:px-8 md:py-4 rounded-full hover:bg-black transition-all transform hover:scale-105 shadow-xl flex items-center gap-2 cursor-pointer mb-20 md:mb-0">
                     Start your own journey
                     <span>→</span>
                 </button>
