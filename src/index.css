@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Outfit', sans-serif;
+  color: #111;
+  /* Dark text for better readability */
+  background-color: transparent;
+  /* Light grey background from design */
+}
