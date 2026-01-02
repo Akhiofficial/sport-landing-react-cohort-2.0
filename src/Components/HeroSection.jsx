@@ -16,7 +16,7 @@ const HeroSection = () => {
                 <div className="absolute inset-0 bg-blue-900/20 mix-blend-multiply z-10"></div>
                 {/* We will set the image via inline style or CSS class once we have the file path */}
                 <img
-                    src="../public/heroimage.png"
+                    src="/heroimage.png"
                     alt="Tennis Court"
                     className="w-full h-full object-cover object-center"
                 />
